@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>SimakPajak</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<main>
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">SimakPajak</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a></li>
+          </li>>
+          <li class="nav-item">
+            <a class="nav-link" href="artikel.html">Artikel</a></li>
+          </li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+  
+<style>
+  .navmenu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #fff;
+      padding: 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navmenu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+  }
+
+  .navmenu li {
+      margin-right: 20px;
+  }
+
+  .navmenu a {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.2s ease;
+  }
+
+  .navmenu a:hover {
+      color: #666;
+  }
+
+  .navmenu .active {
+      color: #333;
+      font-weight: bold;
+  }
+
+  .navmenu .nav-item {
+      margin-right: 20px;
+  }
+
+  .navmenu .nav-link {
+      text-decoration: none;
+      color: #333;
+      transition: color 0.2s ease;
+  }
+
+  .navmenu .nav-link:hover {
+      color: #666;
+  }
+
+  .mobile-nav-toggle {
+      display: none;
+  }
+
+  @media (max-width: 768px) {
+      .mobile-nav-toggle {
+          display: block;
+          font-size: 24px;
+          cursor: pointer;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu {
+          background-color: #fff;
+          box-shadow: none;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu ul {
+          display: flex;
+          gap: 20px;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu li {
+          margin-right: 20px;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu a {
+          text-decoration: none;
+          color: #333;
+          transition: color 0.2s ease;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu a:hover {
+          color: #666;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu .active {
+          color: #333;
+          font-weight: bold;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu .nav-item {
+          margin-right: 20px;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu .nav-link {
+          text-decoration: none;
+          color: #333;
+          transition: color 0.2s ease;
+      }
+  }
+
+  @media (min-width: 769px) {
+      .navmenu .nav-link:hover {
+          color: #666;
+      }
+  }
+</style>
+
+<script>
+  window.addEventListener('scroll', function() {
+      var navbar = document.getElementById('navmenu');
+      if (window.scrollY > 50) {
+          navbar.style.background = 'black';
+      } else {
+          navbar.style.background = 'white';
+      }
+  });
+</script>
+
+  <div class="article">
+    <h1>
+      
+Perencanaan Keuangan Jangka Pendek Perusahaan</h1> 
+    <h3>Membangun Stabilitas Operasional
+    </h3> 
+    <div class="banner">
+      <img src="assets/img/4.png" alt="" />
+    </div>
+    <div class="mybox"> 
+        <div> 
+            Perencanaan keuangan jangka pendek adalah landasan bagi kelangsungan operasional yang stabil bagi setiap perusahaan. Dalam lingkungan bisnis yang dinamis, memiliki perencanaan yang matang adalah hal penting. Untuk mengelola kebutuhan finansial dalam jangka waktu yang pendek merupakan langkah penting untuk menjaga likuiditas dan menghindari risiko. Artikel ini akan membahas langkah-langkah esensial dalam perencanaan keuangan jangka pendek perusahaan.<span id="span1">...</span> 
+            <span class="mybox1" id="mybox1id"> 
+                <br> Analisis Keuangan Saat Ini
+                <br>Dalam tahap awal perencanaan keuangan jangka pendek, langkah pertama adalah melakukan analisis mendalam terhadap kondisi keuangan perusahaan pada saat ini. Informasi posisi kas dan arus kas, hutang jangka pendek, serta aset seperti persediaan dan piutang. Maka perusahaan dapat memahami posisi finansialnya secara lebih mendalam.
+                
+                <br>Pada tahap analisis ini, penting untuk mengidentifikasi tren dan pola dari laporan keuangan sebelumnya guna mendapatkan pandangan yang lebih lengkap. Evaluasi mendalam terhadap posisi kas dan arus kas menjadi awal yang penting. Karena kas adalah darah kehidupan perusahaan yang menopang aktivitas sehari-hari. Selain itu, pemahaman terhadap tingkat hutang jangka pendek sangatlah penting, karena hutang yang jatuh tempo dalam waktu dekat dapat berdampak signifikan terhadap likuiditas.
+                
+                <br>Dengan menggali lebih dalam mengenai persediaan dan piutang, perusahaan dapat menilai seberapa efisien operasionalnya dan apakah ada potensi untuk meningkatkan efisiensi. Melalui analisis rasio keuangan, seperti rasio likuiditas, solvabilitas, dan efisiensi operasional, perusahaan dapat mengidentifikasi tren dan pola yang memberikan wawasan berharga dalam mengambil keputusan finansial yang tepat.
+                
+                laporan keuangan; jasa konsultan pajak; jasa laporan keuangan; konsultan keuangan; laporan pajak;
+                <br>Perencanaan Keuangan Jangka Pendek Perusahaan Membangun Stabilitas Operasional
+                <br> Tujuan Perencanaan Keuangan Jangka Pendek
+                <br>Sebelum menyusun rencana, perusahaan harus menentukan tujuan-tujuan spesifik yang ingin dicapai melalui perencanaan keuangan jangka pendek. Tujuan-tujuan ini haruslah terukur dan relevan dengan kondisi bisnis saat ini. Dengan memiliki tujuan yang jelas, perusahaan dapat memprioritaskan rencana-rencana yang sesuai dengan kebutuhan dan urgensi.
+                
+                <br>Dengan mendefinisikan tujuan yang spesifik dan terukur, perusahaan dapat memiliki fokus yang jelas dalam mengelola sumber daya finansialnya. Prioritas tujuan juga harus diperhitungkan berdasarkan kebutuhan dan urgensi. Mungkin tujuannya adalah mengatasi tantangan likuiditas yang muncul dalam waktu dekat, mengurangi beban hutang jangka pendek, atau memperbaiki efisiensi dalam proses manajemen persediaan.
+                
+                <br> Tujuan-tujuan ini bukan hanya memberikan panduan bagi perencanaan dan pengalokasian dana, tetapi juga memberikan pandangan jangka pendek yang berarti dalam perjalanan perusahaan menuju pencapaian tujuan jangka panjang yang lebih besar.
+                
+                <br> Penentuan Anggaran Dalam Perencanaan Keuangan Jangka Pendek<br>
+                Pengalokasian dana yang tepat adalah kunci dalam perencanaan keuangan jangka pendek. Perusahaan perlu mengidentifikasi dan mengalokasikan dana untuk kebutuhan operasional sehari-hari seperti gaji dan upah, biaya overhead, serta pembelian bahan baku atau barang dagangan. Anggaran yang disusun juga harus mempertimbangkan biaya-biaya tetap dan variabel yang dapat mempengaruhi arus kas.
+                
+                Dalam langkah ini, perusahaan harus merinci pengeluaran yang diperlukan untuk menjalankan operasional sehari-hari. Ini mencakup alokasi untuk berbagai aspek seperti gaji dan upah karyawan, biaya overhead yang terkait dengan administrasi dan operasional, serta pembelian bahan baku atau barang dagangan yang diperlukan.
+                
+                Namun, perencanaan anggaran tidak hanya tentang alokasi dana, tetapi juga tentang mengantisipasi perubahan yang mungkin terjadi dalam lingkungan bisnis. Dengan mempertimbangkan biaya tetap dan variabel serta merujuk pada data historis dan tren industri, perusahaan dapat menciptakan anggaran yang realistis dan adaptif, yang akan membantu mengelola pengeluaran dengan efektif serta mengatasi tantangan yang mungkin muncul dalam perjalanan operasionalnya.
+                
+                Pengelolaan Kas yang Efektif dalam Perencanaan Keuangan Jangka Pendek<br>
+                Pengelolaan kas yang efektif adalah langkah penting dalam perencanaan keuangan jangka pendek. Perusahaan perlu mengawasi dengan cermat arus kas masuk dan keluar. Selain itu, menjaga saldo minimum kas yang diperlukan untuk operasional juga harus menjadi perhatian utama. Menginvestasikan sementara dana dalam instrumen likuid dan aman dapat membantu memaksimalkan potensi pengembalian.
+                
+                Dalam upaya ini, perusahaan harus memantau arus kas masuk dan keluar secara rutin, memahami pola-pola pengeluaran dan penerimaan yang mungkin terjadi. Menjaga saldo kas minimum yang diperlukan adalah langkah penting untuk menghindari risiko likuiditas.
+                
+                Selain itu, menginvestasikan sementara dana dalam instrumen yang likuid dan aman dapat membantu memaksimalkan pengembalian dari kas yang tidak digunakan. Dalam mengelola kas, perusahaan juga perlu berfokus pada manajemen risiko, mengantisipasi kemungkinan perubahan dalam arus kas, dan memiliki rencana cadangan untuk mengatasi situasi darurat yang dapat mempengaruhi likuiditas.
+                
+                Manajemen Piutang<br>
+                Manajemen piutang juga menjadi komponen krusial dalam perencanaan keuangan jangka pendek. Perusahaan harus mampu mengawasi dengan teliti piutang dari pelanggan, serta mengambil tindakan yang tepat terhadap piutang yang sudah jatuh tempo. Implementasi kebijakan kredit yang lebih efektif dapat membantu mengurangi risiko piutang macet.
+                
+                Pengawasan yang cermat terhadap piutang yang jatuh tempo dan tindakan tepat waktu terhadap piutang yang tidak tertagih adalah penting untuk mencegah risiko piutang macet yang dapat berdampak negatif pada kas perusahaan.
+                
+                Dalam kasus di mana perusahaan menghadapi kompleksitas dalam manajemen piutang, mempertimbangkan untuk menggandeng jasa konsultan keuangan atau profesional dengan keahlian dalam manajemen piutang dapat membantu menyusun strategi yang lebih efektif dalam mengurangi risiko piutang tak tertagih sambil memelihara hubungan baik dengan pelanggan.
+                
+                Pengelolaan Persediaan<br>
+                Persediaan yang tidak terkendali dapat mempengaruhi likuiditas perusahaan. Oleh karena itu, pengaturan pengelolaan persediaan harus baik. Pengawasan dan kontrol atas tingkat persediaan menjadi penting, serta perlu melakukan penghitungan jumlah optimal persediaan agar tidak terjadi kelebihan atau kekurangan stok. Penerapan metode manajemen persediaan yang sesuai dapat membantu mengoptimalkan penggunaan dana.
+                
+                Manajemen Hutang Jangka Pendek<br>
+                Mengelola Hutang jangka pendek juga harus dengan hati-hati. Perusahaan perlu meninjau kembali dan melakukan negosiasi terhadap kondisi hutang yang ada. Selain itu, perusahaan juga perlu mempertimbangkan alternatif pembiayaan yang sesuai dengan situasi keuangan. Pengelolaan hutang jangka pendek yang efisien akan membantu menjaga keseimbangan antara sumber dan penggunaan dana.
+                
+                Pemantauan dan Evaluasi pada Proses Perencanaan Keuangan Jangka Pendek<br>
+                Proses perencanaan keuangan jangka pendek tidak berakhir setelah pembuatan rencana dan pengalojkasian dana. Penting untuk membuat laporan keuangan berkala dan membandingkan kinerja aktual dengan menetapkan anggaran. Dengan pemantauan yang cermat, perusahaan dapat mengidentifikasi perubahan kondisi yang mungkin terjadi dan mengambil tindakan perbaikan yang perlu dan mendesak.
+                
+                Penyesuaian dan Perbaikan<br>
+                Dalam dunia bisnis yang dinamis, fleksibilitas dalam perencanaan menjadi kunci. Setelah mengidentifikasi hasil dari perencanaan dan membandingkannya dengan kinerja aktual, perusahaan perlu melakukan penyesuaian dan perbaikan jika perlu. Penilaian terus-menerus akan membantu memastikan bahwa rencana keuangan jangka pendek tetap relevan dan efektif.
+                <br>
+                Kesimpulan<br>
+                
+                Perencanaan keuangan jangka pendek adalah dasar untuk menjaga stabilitas operasional perusahaan. Dengan mengikuti langkah-langkah dalam perencanaan ini, perusahaan dapat mengelola likuiditas dengan lebih baik, mengurangi risiko keuangan, dan menghadapi tantangan dalam lingkungan bisnis yang dinamis.<br>
+                
+                Melalui perencanaan yang matang, perusahaan dapat membangun fondasi yang kokoh untuk pertumbuhan dan keberlanjutan jangka panjang. Dalam mengelola kas, perusahaan juga perlu berfokus pada manajemen risiko, mengantisipasi kemungkinan perubahan dalam arus kas, dan memiliki rencana cadangan untuk mengatasi situasi darurat yang dapat mempengaruhi likuiditas.<br>
+                
+                Jika perusahaan mengalami kesulitan dalam mengelola kas dan perencanaan keuangan, mempertimbangkan menggunakan jasa konsultan keuangan dapat menjadi langkah bijak. Konsultan keuangan berpengalaman dapat memberikan pandangan obyektif, analisis mendalam, dan rekomendasi yang dapat membantu perusahaan mengatasi tantangan dan mengembangkan strategi perencanaan keuangan yang lebih efektif.<br>
+            </span> 
+        </div> 
+        <button id="mybuttonid" 
+                onclick="changeReadMore()"> 
+            Read More 
+        </button> 
+    </div> 
+  </div>
+    <script src="script.js"></script> 
+  </body> 
+  
+    <title>Responsive Banner</title>
+    <style>
+        .banner img {
+              width: 350px;
+              height: 200px;
+          }
+        .banner {
+          width: 400px;
+          height: 250px;
+      margin: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .png{
+          width: 300px;
+          height: 200px;
+        }
+        .article {
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+  
+    <div id='chat-box'>
+      <div id='chat-top'>Butuh Bantuan? <span id='chat-top-right'><svg id='close-box' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z" fill='#fff'/></svg></span><div class='clear'></div></div>
+      <div id='chat-msg'><p>Halo, saya butuh informasi lebih lanjut tentang Pajak!</p>
+      <div id='chat-form'>
+      <div class='chat-in'>
+      <input type='text' id='whats-in' Placeholder='Send Your Message...'/></div><div id='send-btn'><svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 48 48"><path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z" fill='rgb(18, 140, 126)'/></svg></div></div>
+      </div>
+      </div>
+      <div id='whats-chat'>
+      
+      <svg xmlns="http://www.w3.org/2000/svg" version="1" width="35" height="35" viewBox="0 0 90 90"><path d="M90 44a44 44 0 0 1-66 38L0 90l8-24A44 44 0 0 1 46 0c24 0 44 20 44 44zM46 7C25 7 9 24 9 44c0 8 2 15 7 21l-5 14 14-4a37 37 0 0 0 58-31C83 24 66 7 46 7zm22 47l-2-1-7-4-3 1-3 4h-3c-1 0-4-1-8-5-3-3-6-6-6-8v-2l2-2 1-1v-2l-4-8c0-2-1-2-2-2h-2l-3 1c-1 1-4 4-4 9s4 11 5 11c0 1 7 12 18 16 11 5 11 3 13 3s7-2 7-5l1-5z" fill="#FFF"/></svg>
+      </div>
+      <style>
+        body{width:100%}
+      *{margin:0px;padding:0px;box-sizing:border-box;}
+      #whats-chat{position:fixed;right:3%;bottom:10%;height:auto;width:auto;background:#25D366;padding:12.5px;border-radius:50px;}
+      #whats-chat:hover{cursor:pointer;box-shadow:2px 2px 15px #ccc;bottom:11%;}
+      /*===============================*/
+      #chat-box{position:fixed;right:-500px;bottom:18%;width:250px;height:200px;transition:all .5s;}
+      #chat-top{width:100%;line-height:2;background:rgb(18, 140, 126);color:white;text-align:center;border-radius:5px 5px 0 0;padding:0 10px;}
+      #chat-msg{background:#ece5dd;padding:10px;border-radius:0 0 5px 5px;box-shadow:0 0 25px -10px #999;}
+      #chat-msg p{font-size:14px;padding:5px;background:white;border-radius:0 50px 50px 50px;margin-bottom:10px;}
+      #chat-form{display:flex;}
+      .chat-in{width:80%;}
+      #chat-form input{border-radius:5px 0 5px 5px;border:none;outline:none;font-size:14px;padding:5px;line-height:2;}
+      #send-btn{width:20%;padding: 0 5px;}
+      #chat-top-right{float:right;padding:5px 0;}
+      #chat-box:after{content:'';
+          position: absolute;
+          top:58%;
+          left: 90%;
+          width: 0;
+          height: 0;
+          border-top: 25px solid transparent;
+        border-bottom: 25px solid transparent; 
+        
+        border-right:25px solid #ece5dd;}
+      .right{float:right}
+      .clear{clear:both}
+      </style>
+      <script>
+      document.getElementById('whats-chat').addEventListener("mouseover", showchatbox);
+      document.getElementById('chat-top-right').addEventListener("click", closechatbox);
+      document.getElementById('send-btn').addEventListener("click", sendmsg);
+      window.addEventListener("load", showchatboxtime);
+      function showchatbox(){
+      document.getElementById('chat-box').style.right='8%'
+      }
+      function closechatbox(){
+      document.getElementById('chat-box').style.right='-500px'
+      
+      
+      }
+      function showchatboxtime(){
+      setTimeout(launchbox,5000)
+      }
+      function launchbox(){
+      document.getElementById('chat-box').style.right='8%'
+      
+      }
+      function sendmsg(){
+      var msg = document.getElementById('whats-in').value;
+      var relmsg = msg.replace(/ /g,"%20");
+       window.open('https://api.whatsapp.com/send?phone=6287874400041&text='+relmsg,'_blank');
+      
+      }
+      </script>
+
+  <footer class="footer_section">
+    <div class="container">
+      <p>
+        &copy; <span id="displayDateYear"></span> All Rights Reserved By
+        <a href="https://html.design/">SimakPajak</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+ 
+
+
+</body>
+
+</html>
